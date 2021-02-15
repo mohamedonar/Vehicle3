@@ -1,0 +1,25 @@
+Ultrasonic:
+echo    <-> A1
+Trig    <-> A0
+
+Motor Driver1 (right):
+N3      <-> D5
+N4      <-> D3
+Speed   <-> D10 (PWM)
+
+Motor Driver1 (left):
+N1      <-> D2
+N2      <-> D4
+Speed   <-> D6 (PWM)
+
+
+Line Follower:
+R       <-> D11
+C       <-> D9
+L       <-> D8
+
+Buzzer:
+Signal  <-> D12
+
+IR reviever:
+Signal  <-> D7
